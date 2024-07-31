@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Box</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+      <div class="upper-row">
+
+        <label for="bgColorPicker">Background Color:</label>
+        <input type="color" id="bgColorPicker" title="Choose Background Color">
+        <label for="textColorPicker">Text Color:</label>
+        <input type="color" id="textColorPicker" title="Choose Text Color">
+
+      </div>
+
+      <div class="signature-box">
+        <canvas id="signatureCanvas" width="700" height="500"></canvas>
+      </div>
+
+      <div class="buttons">
+        <button class="clear-button" id="clearButton">Clear</button>
+        <button class="save-button" id="saveButton">Save & Download</button>
+      </div>
+      
+            
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

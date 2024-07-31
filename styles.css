@@ -1,0 +1,81 @@
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: #fff; 
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  text-align: center;
+  width: 750px; 
+}
+
+.upper-row {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.upper-row label {
+  margin: 0 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.upper-row input[type="color"] {
+  border: none;
+  padding: 0;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.signature-box {
+  margin: 20px 0;
+}
+
+canvas {
+  border: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  font-size: 16px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.clear-button {
+  background-color: #e74c3c; 
+  margin-right: 10px;
+}
+
+.clear-button:hover {
+  background-color: #c0392b; 
+}
+
+.save-button {
+  background-color: #2ecc71; 
+}
+
+.save-button:hover {
+  background-color: #27ae60; 
+  
+}
