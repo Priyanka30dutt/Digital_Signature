@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signature Box</title>
+    
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,10 +23,16 @@
       </div>
 
       <div class="buttons">
+        <button class="text-button" id="textButton">Text as Signature</button>
         <button class="clear-button" id="clearButton">Clear</button>
         <button class="save-button" id="saveButton">Save & Download</button>
+        
+        
       </div>
       
+      <input type="file" id="uploadButton" accept="image/*" title="Upload Signature Image">
+      <button class="filter-button" id="filterButton">Apply Filter</button> <!-- New button -->
+
             
     </div>
     <script src="script.js"></script>
