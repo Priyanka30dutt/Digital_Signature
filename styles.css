@@ -79,3 +79,46 @@ button {
   background-color: #27ae60; 
   
 }
+
+.filter-button {
+  background-color: #3498db;; /* Blue */
+  margin-left: 10px;
+  font-size: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+ 
+}
+
+.filter-button:hover {
+  background-color:#2980b9; /* Darker blue */
+}
+
+.text-button {
+  background-color:rgb(206, 153, 253) ; /* Blue color */
+  margin-right: 10px;
+}
+
+.text-button:hover {
+  background-color:rgb(215, 113, 249); /* Darker blue on hover */
+}
+
+
+input[type="file"] {
+  margin-top: 15px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  width: 200px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+  background-color: #2980b9;
+}
+
